@@ -1,0 +1,17 @@
+{
+  "name": "i18n-yii2",
+  "version": "0.0.1",
+  "description": "Categorized I18N substitution like Yii2 does",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "i18n"
+  ],
+  "author": "Vovan-VE <vovan-ve@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "messageformat": "^2.0.2"
+  }
+}
