@@ -13,5 +13,12 @@
   "license": "MIT",
   "dependencies": {
     "messageformat": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vovan-ve/i18n-yii2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vovan-ve/i18n-yii2/issues"
   }
 }
