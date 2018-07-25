@@ -1,6 +1,6 @@
 {
   "name": "i18n-yii2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Categorized I18N substitution like Yii2 does",
   "main": "src/index.js",
   "scripts": {
@@ -11,6 +11,9 @@
   ],
   "author": "Vovan-VE <vovan-ve@yandex.ru>",
   "license": "MIT",
+  "files": [
+    "src"
+  ],
   "dependencies": {
     "messageformat": "^2.0.2"
   },
