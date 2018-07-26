@@ -1,21 +1,40 @@
 {
   "name": "i18n-yii2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Categorized I18N substitution like Yii2 does",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "dist/index.js",
   "keywords": [
     "i18n"
   ],
   "author": "Vovan-VE <vovan-ve@yandex.ru>",
   "license": "MIT",
   "files": [
-    "src"
+    "dist"
   ],
+  "scripts": {
+    "start": "npm run build -- -w",
+    "build": "cross-env NODE_ENV=production babel src -d dist",
+    "clean": "del-cli dist",
+    "prebuild": "npm run clean",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "messageformat": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "del-cli": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 6.9.0 || >= 8.9.0"
   },
   "repository": {
     "type": "git",
