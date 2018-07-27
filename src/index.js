@@ -110,11 +110,11 @@ class I18N {
     addTranslations(translations) {
         const old = this.translations;
         const result = {};
-        Object.keys(translations).each(language => {
+        Object.keys(translations).forEach(language => {
             const newWithLang = translations[language];
             const oldWithLang = old[language] || {};
             const resultWithLang = {};
-            newWithLang.each(category => {
+            Object.keys(newWithLang).forEach(category => {
                 resultWithLang[category] = {
                     ...oldWithLang[category] || {},
                     ...newWithLang[category],

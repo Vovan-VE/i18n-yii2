@@ -1,6 +1,6 @@
 {
   "name": "i18n-yii2",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Categorized I18N substitution like Yii2 does",
   "main": "dist/index.js",
   "keywords": [
