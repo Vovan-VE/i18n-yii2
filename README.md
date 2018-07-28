@@ -1,6 +1,8 @@
 i18n-yii2
 =========
 
+[![Package Version](https://img.shields.io/npm/v/i18n-yii2.svg)](https://www.npmjs.com/package/i18n-yii2)
+
 Translation substitution in [Yii2 manner][yii2-i18n]:
 
 Usage
