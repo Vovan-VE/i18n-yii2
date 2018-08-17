@@ -6,7 +6,8 @@
       {
         "useBuiltIns": true,
         "targets": {
-          "node": "6.9.0"
+          "node": "6.9.0",
+          "browsers": "defaults"
         },
         "exclude": [
           "transform-async-to-generator",
@@ -17,6 +18,7 @@
   ],
   "plugins": [
     [
+      "transform-class-properties",
       "transform-object-rest-spread",
       {
         "useBuiltIns": true
